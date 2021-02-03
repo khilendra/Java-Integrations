@@ -11,7 +11,8 @@ import javax.mail.internet.MimeMultipart;
 import java.util.Properties;
 
 public class GMail implements Email {
-    private final String host = "smtp.gmail.com";
+    
+	private final String host = "smtp.gmail.com";
     private String username = "";
     private String password = "";
 
