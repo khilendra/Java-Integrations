@@ -16,7 +16,7 @@ public class GMail implements Email {
     private String username = "";
     private String password = "";
     private String port = "";
-    private String tcl = "";
+    private String tcl = ""
 
     public GMail(String username, String password) {
         this.username = username;
