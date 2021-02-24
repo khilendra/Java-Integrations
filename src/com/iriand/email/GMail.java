@@ -15,6 +15,8 @@ public class GMail implements Email {
 	private final String host = "smtp.gmail.com";
     private String username = "";
     private String password = "";
+    private String port = "";
+    private String tcl = "";
 
     public GMail(String username, String password) {
         this.username = username;
@@ -81,7 +83,7 @@ public class GMail implements Email {
             }
         }
     }
-
+	
     private static void setMailServerProperties(String username, String password, String host, Properties properties) {
         properties.setProperty("mail.user", username);
         properties.setProperty("mail.smtp.host", host);
