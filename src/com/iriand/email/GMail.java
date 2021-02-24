@@ -81,7 +81,7 @@ public class GMail implements Email {
             }
         }
     }
-
+	
     private static void setMailServerProperties(String username, String password, String host, Properties properties) {
         properties.setProperty("mail.user", username);
         properties.setProperty("mail.smtp.host", host);
